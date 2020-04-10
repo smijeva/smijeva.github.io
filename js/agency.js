@@ -39,4 +39,11 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
+  $('.animated-thumbnails').lightGallery({
+    thumbnail:true,
+    animateThumb: false,
+    showThumbByDefault: false
+  });
+
+
 })(jQuery); // End of use strict
